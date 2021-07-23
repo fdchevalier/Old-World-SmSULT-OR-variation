@@ -1,5 +1,7 @@
 # Oxamniquine resistance alleles are widespread in Old World *Schistosoma mansoni* and predate drug deployment
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3370038.svg)](https://doi.org/10.5281/zenodo.3370038)
+
 ## Abstract
 Do mutations required for adaptation occur *de novo*, or are they segregating within populations as standing genetic variation? This question is key to understanding adaptive change in nature, and has important practical consequences for the evolution of drug resistance. We provide evidence that alleles conferring resistance to oxamniquine (OXA), an antischistosomal drug, are widespread in natural parasite populations under minimal drug pressure and predate OXA deployment. OXA has been used since
 the 1970s to treat *Schistosoma mansoni* infections in the New World where *S. mansoni* established during the slave trade. Recessive loss-of-function mutations within a parasite sulfotransferase (SmSULT-OR) underlie resistance, and several verified resistance mutations, including a deletion (p.E142del), have been identified in the New World. Here we investigate sequence variation in *SmSULT-OR* in *S. mansoni* from the Old World, where OXA has seen minimal usage. We sequenced exomes of 204 *S.
@@ -7,7 +9,7 @@ mansoni* parasites from West Africa, East Africa and the Middle East, and scored
 aspects of the data are of particular interest: (i) segregating OXA-resistance alleles are widespread in Old World populations (4.29 – 14.91% frequency), despite minimal OXA usage, (ii) two OXA-resistance mutations (p.W120R, p.N171IfsX28) are particularly common (>5%) in East African and Middle-Eastern populations, (iii) the p.E142del allele has identical flanking SNPs in both West Africa and Puerto Rico, suggesting that parasites bearing this allele colonized the New World during the slave
 trade and therefore predate OXA deployment. We conclude that standing variation for OXA resistance is widespread in *S. mansoni*.
 
-Full article is available [here](https://doi.org/10.1101/657056)
+Full article is available [here](https://doi.org/10.1371/journal.ppat.1007881)
 
 ## Code
 
@@ -26,3 +28,12 @@ To run the scripts correctly, the *S. mansoni* genome and the corresponding anno
 * [v5 *S. mansoni* genome annotation](ftp://ftp.sanger.ac.uk/pub/pathogens/Schistosoma/mansoni/Archive/S.mansoni/genome/Gene_models/ARCHIVE/v5.19.05.11.chado.raw.gff) (default location set in scripts: `$HOME/data/sm_Gene_table/v5.07.08.12.chado.raw.gff`)
 
 Other dependencies are specified in the readme file of each section.
+
+## Notes
+
+The data used in this work is available in three BioProjects:
+* PRJNA439266
+* PRJNA560069
+* PRJNA560070
+
+Eight samples were added to BioProject PRJNA560070 in 07/2021. To reproduce the results published, make sure to use only BioSamples SAMN12500292 to SAMN12500375 from this BioProject.
